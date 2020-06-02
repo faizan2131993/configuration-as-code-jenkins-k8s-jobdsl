@@ -2,8 +2,7 @@ job('super-seed') {
   scm {
     git {
       remote {
-        url ('git@github.com:figaw/configuration-as-code-jenkins-k8s-jobdsl.git')
-        credentials('jenkins-github-ssh')
+        url ('https://github.com/faizan2131993/configuration-as-code-jenkins-k8s-pipeline.git')
       }
     }
   }
